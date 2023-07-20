@@ -59,7 +59,7 @@ while True:
                 else:
                     print(f"Valor limite de saque excedido. O limite é R$ {limite:.2f}")
             else:
-                print('Não será, permitido saque de valores negativos.')
+                print('Não serão, permitidos saques de valores negativos.')
         else:
             print("Limite de saques excedido. Tente novamente mais tarde.")
 
@@ -69,7 +69,7 @@ while True:
 
         print("\nBank Python\nExtrato da conta axzsa\n")
         if extrato == '':
-            print("Não foram realizadas movimentações.")
+            print("Não foram realizadas novas movimentações.")
         else:
             print(extrato)
             print(f"O saldo da conta é R$ {saldo:.2f}")
